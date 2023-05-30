@@ -5,12 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UD Atenea cursos</title>
+    <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="./styles/global-styles.css">
+    <link rel="stylesheet" href="./styles/header-styles.css">
+    <link rel="stylesheet" href="./styles/banner-styles.css">
+    <link rel="stylesheet" href="./styles/section-1-styles.css">
+    <link rel="stylesheet" href="./styles/section-2-styles.css">
+    <link rel="stylesheet" href="./styles/footer-styles.css">
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="header__navigation">
             <img src="./Public/images/header-logo.png" alt="main-logo">
             <nav>
                 <ul>
@@ -21,7 +28,7 @@
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="header__settings">
             <div>
                 <img src="./Public/images/header-world.png" alt="world">
                 <span>Español</span>
@@ -41,35 +48,35 @@
                     </p>
                 </div>
                 <div>
-                    <button>Saber Mas</button>
-                    <button>Planes</button>
+                    <button class="button--orange">Saber Más</button>
+                    <button class="button--white">Planes</button>
                 </div>
             </div>
             <img src="./Public/images/banner-online.png" alt="online-education" width="550" height="350">
         </section>
         <section id="section-1">
-            <div>
-                <h2>Por que elegirnos a nostros</h2>
+            <div class="section-1__info">
+                <h2>Por qué elegirnos a nostros</h2>
                 <p>
                     Somos una universidad en constante actualizacion y
                     nos gusta el cambio, te enseñamos tecnologias contemporaneas
                 </p>
             </div>
-            <div>
+            <div class="section-1__card">
                 <img src="./Public/images/section1-education.png" 
                 alt="education" 
                 width="120px"
                 height="120px">
-                <h3>Virtualidad y educacion</h3>
-            </div>
-            <div>
+                <h3>Virtualidad y educación</h3>
+            </div >
+            <div class="section-1__card section-1__card-down">
                 <h3>Alcance de objetivos</h3>
                 <img src="./Public/images/section1-goals.png" 
                 alt="goals" 
                 width="120px" 
                 height="120px">
             </div>
-            <div>
+            <div class="section-1__card">
                 <img src="./Public/images/section1-teach.png" 
                 alt="teach" 
                 width="120px" 
@@ -78,7 +85,7 @@
             </div>
         </section>
         <section id="section-2">
-            <div>
+            <div class="section-2__info">
                 <div>
                     <img src="./Public/images/section2-tools.png" 
                     alt="tools" 
@@ -87,22 +94,22 @@
                 </div>
                 <div>
                     <h2>Brindamos herramientas para que tu aprendizaje</h2>
-                    <h2>sea efectivo</h2>
+                    <h2 class="section-2__sub-pink">sea efectivo</h2>
                     <p>Las herramientas digitales son nuestras aliadas y
                         aprovechamos cada una de estas para brindarte la mejor
                         experiencia en linea
                     </p>
-                    <button>Saber más</button>
+                    <button class="button--orange">Saber más</button>
                 </div>
             </div>
-            <div>
+            <div class="section-2__info">
                 <div>
                     <h2>Educación pensando en</h2>
-                    <h2>objetivos alcanzados</h2>
+                    <h2 class="section-2__sub-pink">objetivos alcanzados</h2>
                     <p>Es importante para nosotros que las metas de cada uno de 
                         nuestros estudiantes sea alcanzada a través de nuestros cursos
                     </p>
-                    <button>Saber más</button>
+                    <button class="button--orange">Saber más</button>
                 </div>
                 <div>
                     <img src="./Public/images/section2-goals.png" 
@@ -114,13 +121,14 @@
         </section>
     </main>
     <footer id="footer">
-        <div>
+        <div class="footer__info">
             <img src="./Public/images/footer-logo.png" 
             alt="footer-logo" 
             width="200px" 
             height="175px">
             <div>
-                <p>Únete a nuestra comunidad para recibir información actualizada de los cursos y conferencia que ofrecemos</p>
+                <p>Únete a nuestra comunidad para recibir información actualizada 
+                    de los cursos y conferencia que ofrecemos</p>
                 <form method="post">
                     <input 
                     id="email"
@@ -128,7 +136,7 @@
                     name="User_name"
                     placeholder="correo electronico"
                     >
-                    <button>Subscribirse</button>
+                    <button class="button--pink">Subscribirse</button>
                 </form>
             </div>
         </div>
@@ -146,7 +154,7 @@
                 </tr>
                 <tr>
                     <td><a href="">Moodle</a></td>
-                    <td><a href="">Como obtengo mis scertificados?</a></td>
+                    <td><a href="">Como obtengo mis certificados?</a></td>
                     <td><a href="">universidaddistrital@edu.co</a></td>
                 </tr>
                 <tr>

@@ -1,0 +1,33 @@
+/* ESTILOS BANNER */
+
+#banner {
+    display: flex;
+    margin: 25px 100px;
+    padding: 90px 80px;
+    background: linear-gradient(313.18deg, #EE9AE5 3.28%, #5961F9 97.04%);
+    border-radius: 48px 48px 300px 48px;
+}
+
+
+
+h1 {
+    margin: 0px;
+    color: #fff;
+    font-family: 'Jost';
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: -0.64px;
+}
+
+#banner p {
+    margin: 25px 0px;
+    color: #fff;
+}
+
+.button--white{
+    padding: 12px 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+}

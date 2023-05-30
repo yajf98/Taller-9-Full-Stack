@@ -1,0 +1,20 @@
+/* ESTILOS SECTION 2 */
+
+#section-2 {
+    padding: 20px 180px;
+    background: #ed80fd26;
+}
+
+.section-2__info {
+    display: flex;
+    gap: 35px;
+    margin: 70px 0px;
+}
+
+.section-2__sub-pink {
+    color: #ed80fd;
+}
+
+.section-1__card-down {
+    margin-top: 50px;
+}
