@@ -1,0 +1,41 @@
+body{
+    margin-top: 16%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    margin-left: 360px;
+    margin-right: 330px;
+}
+p{
+    font-size: 16px;
+}
+.subrayada-green{
+    color: #1BB303;
+    text-decoration: underline;
+}
+.red{
+    color: #FF0000;
+    font-weight: bold;
+}
+.underover{
+    text-decoration: underline overline;
+}
+.large{
+    font-size: 40px;
+    font-weight: bold;
+}
+.azul{
+    color: #0027FF;
+    font-weight: bold;
+    font-size: 18px;
+}
+.subrayada-red{
+    color: #FF0000;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+}
