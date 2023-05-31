@@ -1,0 +1,47 @@
+body{
+    margin: 14%;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span {
+    font-size: 23px;
+    font-family: 'Arial';
+}
+
+.text__big {
+    font-size: 23px;
+}
+
+.dotted-border-table {
+    width: 80%;
+    border: 2px dotted;
+    border-collapse: collapse;
+    background-color: #FFFF00;
+}
+
+.dotted-border-table th {
+    padding: 4px;
+    font-family: 'Arial';
+    font-style: italic;
+    text-align: center;
+    color: #FF0000;
+}
+
+.dotted-border-table td {
+    border: 2px dotted;
+    padding: 1px;
+    text-align: left;
+    width: 40%;
+}
+
+.dotted-border-table-2 {
+    border-left: 2px dotted;
+    border-right: 2px dotted;
+    width: 80%;
+    background-color: #FFFF00;
+    border-bottom: 2px dashed #FF0000;
+}

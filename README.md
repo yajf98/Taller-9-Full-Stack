@@ -28,3 +28,6 @@
 
 <h2>Punto 7-8: HTML y CSS</h2>
 <img src="./Public/images/Punto 7-8.png" alt="html y css">
+
+<h2>Punto 9: HTML y CSS</h2>
+<img src="./Public/images/Punto 9.png" alt="html y css">
