@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: #d6afdc;
+}
+nav ul li:hover{
+    background: #001FFF;
+    cursor: pointer;
+}
+li{
+    margin: 1%;
+    padding: 1%;
+    font-size: 20px;
+    color: #fff;
+}
